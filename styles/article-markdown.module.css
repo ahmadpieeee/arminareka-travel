@@ -1,0 +1,73 @@
+.articleMarkdown {
+  margin: 0;
+  padding: 0;
+  font-family: Amiri, Poppins, monospace;
+}
+.articleMarkdown code {
+  font-size: medium;
+  color: #14855f;
+}
+.articleMarkdown p {
+  font-size: larger;
+  line-height: 26px;
+}
+.articleMarkdown h1 {
+  font-size: xx-large;
+}
+.articleMarkdown h2 {
+  font-size: x-large;
+}
+.articleMarkdown h3 {
+  font-size: larger;
+}
+.articleMarkdown h4 {
+  font-size: large;
+}
+.articleMarkdown a {
+  font-size: medium;
+  color: rgb(55, 175, 211);
+}
+
+.articleMarkdown ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  list-style: disc outside none;
+}
+
+.articleMarkdown ul li {
+  margin-left: 1.2em;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.articleMarkdown blockquote {
+  margin: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(47, 47, 47, 1) 0%,
+    rgb(22, 121, 179) 50%,
+    rgb(40, 119, 113) 100%
+  );
+  border-left: 8px solid #287a73;
+  padding: 0.5em 10px;
+  /* quotes: '\201C''\201D''\2018''\2019'; */
+}
+.articleMarkdown blockquote:before {
+  color: #287a73;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.01em;
+  margin-right: 0.15em;
+  vertical-align: -0.355em;
+}
+.articleMarkdown blockquote p {
+  font-size: large;
+  display: inline;
+  color: #fff;
+  font-weight: 600;
+}
+.articleMarkdown blockquote a {
+  font-size: large;
+  color: #fff;
+  font-weight: 600;
+}
